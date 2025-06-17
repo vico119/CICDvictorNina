@@ -1,0 +1,14 @@
+stages:          # List of stages for jobs, and their order of execution
+  - build
+  #- test
+  #- package
+
+build-job:       # This job runs in the build stage, which runs first.
+  image: maven:3-jdk-8
+  stage: build
+  script:
+    - echo "Compilando el proyecto"
+    - "mvn clean compile test package -B"
+  artifacts:
+    paths:
+      - target/*.war
