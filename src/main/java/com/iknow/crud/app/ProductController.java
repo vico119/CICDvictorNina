@@ -70,7 +70,7 @@ public class ProductController {
                 productItems = new ArrayList<Product>();
             }
 
-            //productItems.add(product);
+            productItems.add(product);
             System.out.println("productItems " + productItems);
             
             if(isWeb){
