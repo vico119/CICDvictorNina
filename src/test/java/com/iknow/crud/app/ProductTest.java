@@ -19,9 +19,9 @@ public class ProductTest {
     public void comparaProductos(){
         product = new Product(1);
         
-        Product productB = new Product(1);
+        Product productB = new Product(2);
         
-        assertEquals(product, product);
+        assertEquals(product, productB);
         
     }
     
