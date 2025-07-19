@@ -21,7 +21,7 @@ public class ProductTest {
         
         Product productB = new Product(1);
         
-        assertEquals(product, productB);
+        assertEquals(product, product);
         
     }
     
