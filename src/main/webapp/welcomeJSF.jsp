@@ -19,7 +19,7 @@
         </head>
         <body>
             <h:form>
-                <h1><h:outputText value="Hola Mundo !! - Instalacion automatica desde el codigo con Jenkins y Tomcat  - 18 Julio 2025 9:52pm" /></h1>
+                <h1><h:outputText value="Hola Mundo !! - Instalacion automatica desde el codigo con Jenkins y Tomcat  - 21 Julio 2025 7:36pm" /></h1>
                 <br/>
                 <h:commandLink action="#{product.listSetup}" value="All Products" id="linkProds" />
                 <br/>
