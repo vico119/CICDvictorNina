@@ -43,5 +43,5 @@ jobs:
         context: .
         file: Dockerfile
         push: true
-        tags: gustavopalabral/cicddockerdiplomadogithubactions
+        tags: victornina/cicddockerdiplomadogithubactions
 
